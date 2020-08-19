@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Thumbnail to Full Width Image Animation | Codrops</title>
+		<meta name="description" content="An experimental thumbnail to full width and article animation" />
+		<meta name="keywords" content="javascript, gsap, animation, thumbnail, article, layout, css grid" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://use.typekit.net/lne5uqk.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<main data-scroll-container>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Image Animation &amp; Scroll</h1>
+					<p class="frame__tagline">Recreation of <a href="https://twitter.com/wrongakram/status/1279204900661071875">Akram Khalid's animation</a></p>
+				</div>
+				<div class="frame__links">
+					<a href="https://tympanus.net/Development/MagneticButtons/">Previous demo</a>
+					<a href="https://tympanus.net/codrops/?p=50733">Article</a>
+					<a href="https://github.com/codrops/ThumbFullTransition/">GitHub</a>
+				</div>
+				<a class="frame__button">Menu</a>
+			</div>
+			<section class="content">
+				<div class="inner">
+					<header class="content__header">
+						<div class="content__meta">
+							<span class="content__meta-number">01</span>
+							<span class="content__meta-title">Gnostic Love</span>
+						</div>
+						<h2 data-scroll data-scroll-speed="2" data-scroll-delay="0.1" data-scroll-position="top" class="content__title anim-block-wrap">
+							<span class="anim-block">Gnostic Love</span>
+						</h2>
+						<p data-scroll data-scroll-speed="1" data-scroll-delay="0.1" data-scroll-position="top" class="content__subtitle anim-block-wrap">
+							<span class="anim-block">What is wanted is not the will to believe, but the wish <br/> to find out, which is its exact opposite.</span>
+						</p>
+						<div class="content__intro content__breakout">
+							<div class="content__intro-imgWrap">
+								<img data-scroll data-scroll-speed="1" data-scroll-delay="0.1" data-scroll-position="top" class="content__intro-img" src="img/1.jpg" alt="Some image" />
+							</div>
+						</div>
+					</header>
+					<div class="content__body">
+						<p class="content__body-para text-right cell--1-2">Then they opened the firmaments and the Light descended below to the lower regions and to those who were without form, having no true likeness. It was thus that they got the likeness of the Light for themselves. Some rejoiced because the Light had come to them, and that they had been made rich thereby. Others mourned because they were made poor and that which they thought they had was taken away from them. Thus came He, who went forth full of grace, and was taken captive with a captivity. A light of glory was given to the æons who had received the Spark, and guardian spirits were sent to them who are Gamanêl, Etrempsouchos, and Agramas, and those who are with them. They bring help to those who have believed in the Spark of Light.</p>
+						<p data-scroll data-scroll-offset="130" class="content__body-para cell--3 anim-show"><strong>The Crown that the Deathless pray for</strong></p>
+						<div class="content__body-imgwrap cell--1-3">
+							<div data-scroll data-scroll-speed="0.7" data-scroll-delay="0.1" class="content__body-image" style="background-image:url(img/2.jpg)"></div>
+						</div>
+						<p class="content__body-para cell--2-3">Now in the Space of the Indivisible Atom are twelve Founts, above which are the twelve Paternities who surround the Indivisible [Queen] like Deeps or like Skies and make for Her a crown in which is every kind of life: all modes of Triple-powered life, of Uncontainable life, of Infinite life, of Ineffable life, of Silent life, of Unknown life, of Solitary life, of Unshakable life, of First-manifested life, of Self-born life, of True life. All is therein. Every species is in it, all Gnôses and every power which has received the Light, yea, all Mind manifests itself therein. This is the Crown which the Father of the Universe has placed upon the Indivisible [Queen] with three hundred and sixty-five kinds in it, brilliant and filling the Universe with an incorruptible and unfailing light.</p>
+					</div>
+					<footer class="content__footer content__breakout">
+						<div class="inner inner--grid">
+							<a class="content__footer-copyright"  href="https://www.twitter.com/codrops">© Codrops 2020</a>
+							<a data-scroll class="content__footer-next anim-show">Next Project</a>
+						</div>
+					</footer>
+				</div>
+			</section>
+			<section class="thumbs">
+				<div class="thumb">
+					<span class="thumb__number">07</span>
+					<div class="thumb__img" style="background-image:url(img/3.jpg)"></div>
+					<span class="thumb__title">Into Light</span>
+				</div>
+				<div class="thumb">
+					<span class="thumb__number">02</span>
+					<div class="thumb__img" style="background-image:url(img/4.jpg)"></div>
+					<span class="thumb__title">Surrender</span>
+				</div>
+			</section>
+		</main>
+		<svg class="cursor" width="30" height="30" viewBox="0 0 30 30">
+			<circle class="cursor__inner" cx="15" cy="15" r="7.5"/>
+		</svg>
+		<script src="js/index.js"></script>
+	</body>
+</html>
